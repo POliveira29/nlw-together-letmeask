@@ -1,0 +1,28 @@
+.room-code {
+  display: flex;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #137022;
+  cursor: pointer;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 12px;
+    background-color: #137022;
+  }
+  span {
+    width: 240px;
+    flex: 1;
+    display: block;
+    align-self: center;
+    padding: 0 16px 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+}
